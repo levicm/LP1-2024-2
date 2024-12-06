@@ -8,6 +8,7 @@ entrada_completo = hora_entrada * 60 + minuto_entrada
 saida_completo = hora_saida * 60 + minuto_saida
 
 permanencia_completo = saida_completo - entrada_completo
+
 hora_permanencia = permanencia_completo // 60
 minuto_permanencia = permanencia_completo % 60
 
